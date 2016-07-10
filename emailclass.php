@@ -9,11 +9,11 @@
 			require_once('PHPMailer-master/class.phpmailer.php');
 			require 'PHPMailer-master/PHPMailerAutoload.php';
 
-			$account="crbooking.nca@gmail.com";
-			$password="NCA@740!!";
-			$from="crbooking@nca.org.gh";
+			$account="youremail@gmail.com";
+			$password="youremailpassword";
+			$from="sender email@yahoo.com";
 			$from_name="NCA Booking Platform";
-			$adminemail="crbooking@nca.org.gh";
+			$adminemail="adminemailaddress@gmail.com";
 			$subject="Booking Notification";
 			$message="Booking request received from ".$booker.".<br> Please approve or disapprove in the <a href='http://crbooking.nca.org.gh/' >Booking</a> Interface.<br> Thank you. ";
 
@@ -50,8 +50,8 @@
 			require_once('PHPMailer-master/class.phpmailer.php');
 			require 'PHPMailer-master/PHPMailerAutoload.php';
 
-			$account="crbooking.nca@gmail.com";
-			$password="NCA@740!!";
+			$account="youremail@gmail.com";
+			$password="youremailpassword";
 			$from=$sessemail;
 			$from_name=$sessname;
 			$subject="Booking Request";
@@ -89,8 +89,8 @@
 			require_once('PHPMailer-master/class.phpmailer.php');
 			require 'PHPMailer-master/PHPMailerAutoload.php';
 
-			$account="crbooking.nca@gmail.com";
-			$password="NCA@740!!";
+			$account="youremail@gmail.com";
+			$password="youremailpassword";
 			$from=$sessemail;
 			$from_name=$sessname;
 			$subject="Booking Request";
